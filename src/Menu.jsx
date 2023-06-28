@@ -48,21 +48,6 @@ function Menu() {
                 </span>
               </p> 
             </div>
-          {/* <div className="absolute text-right right-10 w-[38rem] z-0 max-h-screen text-2xl scrollable overflow-scroll">
-            <p className="mt-10 font-semibold text-3xl">
-              <p className="font-black mb-10">productions</p>
-              Lorem ipsum dolor sit amet,<br />
-              consectetur adipiscing elit, sed do<br />
-              eiusmod tempor incididunt ut labore et<br />
-              Lorem ipsum dolor sit amet,<br />
-              consectetur adipiscing elit, sed do<br />
-              eiusmod tempor incididunt ut labore et<br />
-              Lorem ipsum dolor sit amet,<br />
-              consectetur adipiscing elit, sed do<br />
-              eiusmod tempor incididunt ut labore et<br />
-              <button className="font-bold italic mt-10 mr-2" onClick={() => setContacts(!contacts)}>go back</button><br />
-            </p>
-          </div> */}
         </Transition>
         <div className="absolute z-10 bottom-12 xl:block hidden tracking-widest leading-6 right-48 max-w-full text-sm text-right font-thin text-white">
           <p className="text-white text-left mt-32 mr-[16rem]">
@@ -71,12 +56,11 @@ function Menu() {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/lucafontana.mp3">lucafontana</a><br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/alessio.dali">dali</a><br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/rbxy71">xy71</a><br /> 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/alberto_comini">como</a><br /> 
             &nbsp;&nbsp;&nbsp;&nbsp; ], <br />
             &nbsp;&nbsp;&nbsp;&nbsp; const <span className="font-extrabold">visuals</span> = [ <br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/elig.ace">elig.ace</a><br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/elig.graphics">elig.graphics</a><br /> 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/kristoffer.castro">kristoffer.castro</a><br /> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/kristoffer.castroo">kristoffer.castro</a><br /> 
             &nbsp;&nbsp;&nbsp;&nbsp; ], <br />  
             &#125; 
           </p> 
