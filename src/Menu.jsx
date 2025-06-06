@@ -24,7 +24,7 @@ function Menu() {
           <div className="absolute max-h-screen z-10 tracking-wider leading-2 top-32 md:top-10 xl:top-10 xl:right-7 right-3 xl:left-[55rem] md:left-[42rem] left-2 max-w-full text-base md:text-lg xl:text-xl text-right font-semibold text-white">
             <p>
               <a target="_blank" className="hover:underline font-bold underline-offset-2" href="https://www.facebook.com/InsomniaPageOfficial/photos/?ref=page_internal">photos</a> <br />
-              <a target="_blank" className="hover:underline font-bold underline-offset-2" href="https://fb.watch/8f-8HncXZD/">aftermovie</a> <br />
+              <a target="_blank" className="hover:underline font-bold underline-offset-2" href="https://www.instagram.com/insomnia.01">aftermovie</a> <br />
               <button className="text-left mt-0 font-semibold hover:underline underline-offset-2" onClick={() => setContacts(!contacts)}>contacts</button> <br />
               <br />
               <span className="relative z-10 w-[32rem] font-light tracking-wide overflow-scrollable">
@@ -41,7 +41,7 @@ function Menu() {
               <p>
                 <br />
                 <span className="relative z-10 w-[32rem] font-light tracking-wide overflow-scrollable">
-                  email: <a href="mailto:mailto:info@insomniaevents.xyz">info@insomniaevents.xyz</a><br />
+                  email: <a href="mailto:fightforyourinsomnia@gmail.com">info@insomniaevents.xyz</a><br />
                   instagram: <a href="https://instagram.com/insomnia.01">@insomnia.01</a><br />
                   facebook: <a href="https://facebook.com/InsomniaPageOfficial">InsomniaPageOfficial</a><br /><br />
                   <button className="text-left mt-0 font-semibold hover:underline underline-offset-2" onClick={() => setContacts(!contacts)}>go back</button> <br />
