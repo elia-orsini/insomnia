@@ -41,7 +41,7 @@ function Menu() {
               <p>
                 <br />
                 <span className="relative z-10 w-[32rem] font-light tracking-wide overflow-scrollable">
-                  email: <a href="mailto:fightforyourinsomnia@gmail.com">info@insomniaevents.xyz</a><br />
+                  email: <a href="mailto:fightforyourinsomnia@gmail.com">fightforyourinsomnia@gmail.com</a><br />
                   instagram: <a href="https://instagram.com/insomnia.01">@insomnia.01</a><br />
                   facebook: <a href="https://facebook.com/InsomniaPageOfficial">InsomniaPageOfficial</a><br /><br />
                   <button className="text-left mt-0 font-semibold hover:underline underline-offset-2" onClick={() => setContacts(!contacts)}>go back</button> <br />
