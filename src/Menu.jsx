@@ -7,21 +7,20 @@ function Menu() {
   const [show, setShow] = useState(false);
   const [contacts, setContacts] = useState(false);
 
-
   return (
     <div>
 
       <Transition
         show={show}
-        enter="transition-opacity duration-100"
+        enter="transition-opacity duration-2000"
         enterFrom="opacity-0"
         enterTo="opacity-100"
-        leave="transition-opacity duration-1000"
+        leave="transition-opacity duration-500"
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <Transition show={!contacts} enter="transition-opacity duration-2000" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
-          <div className="absolute max-h-screen z-10 tracking-wider leading-2 top-32 md:top-10 xl:top-10 xl:right-7 right-3 xl:left-[55rem] md:left-[42rem] left-2 max-w-full text-base md:text-lg xl:text-xl text-right font-semibold text-white">
+        <Transition show={!contacts} enter="transition-opacity duration-500" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
+          <div className="absolute max-h-screen z-20 tracking-wider leading-2 top-32 md:top-10 xl:top-10 xl:right-7 right-3 xl:left-[55rem] md:left-[42rem] left-2 max-w-full text-base md:text-lg xl:text-xl text-right font-semibold text-white">
             <p>
               <a target="_blank" className="hover:underline font-bold underline-offset-2" href="https://www.facebook.com/InsomniaPageOfficial/photos/?ref=page_internal">photos</a> <br />
               <a target="_blank" className="hover:underline font-bold underline-offset-2" href="https://www.instagram.com/insomnia.01">aftermovie</a> <br />
@@ -36,7 +35,7 @@ function Menu() {
             </p> 
           </div>
         </Transition>
-        <Transition show={contacts} enter="transition-opacity duration-2000" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
+        <Transition show={contacts} enter="transition-opacity duration-500" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
           <div className="absolute max-h-screen z-10 tracking-wider leading-2 top-32 md:top-10 xl:top-10 xl:right-7 right-3 xl:left-[55rem] md:left-[42rem] left-2 max-w-full text-base md:text-lg xl:text-xl text-right font-semibold text-white">
               <p>
                 <br />
@@ -56,6 +55,8 @@ function Menu() {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/lucafontana.mp3">lucafontana</a><br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/alessio.dali">dali</a><br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/rbxy71">xy71</a><br /> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/filo.wav">filo.wav</a><br /> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/_vincenzofraccica_">vinci</a><br /> 
             &nbsp;&nbsp;&nbsp;&nbsp; ], <br />
             &nbsp;&nbsp;&nbsp;&nbsp; const <span className="font-extrabold">visuals</span> = [ <br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/elig.ace">elig.ace</a><br /> 
